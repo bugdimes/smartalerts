@@ -85,3 +85,7 @@ curl --location 'http://localhost:3000/alerts' \
 
 - Test Suit
 - Track alerts and dashboard with monitoring using charts etc.
+
+## Screenshot
+
+![Screenshot of Slack](screenshots/photo.png?raw=true)
