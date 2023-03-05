@@ -34,3 +34,9 @@ group :development do
   # gem "spring"
 end
 
+
+# Simple, efficient background processing for Ruby, visit: https://github.com/sidekiq/sidekiq
+gem "sidekiq", "~> 7.0"
+
+# A Ruby and command-line client for the Slack Web, Real Time Messaging and Event APIs., visit: https://github.com/slack-ruby/slack-ruby-client
+gem "slack-ruby-client", "~> 2.0"
