@@ -27,6 +27,9 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  
+  # A Ruby gem to load environment variables from `.env`. visit: https://github.com/bkeepers/dotenv
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -40,3 +43,5 @@ gem "sidekiq", "~> 7.0"
 
 # A Ruby and command-line client for the Slack Web, Real Time Messaging and Event APIs., visit: https://github.com/slack-ruby/slack-ruby-client
 gem "slack-ruby-client", "~> 2.0"
+
+
