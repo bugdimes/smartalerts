@@ -81,4 +81,7 @@ curl --location 'http://localhost:3000/alerts' \
 - API only light-weight application
 
 
+## TODOs
 
+- Test Suit
+- Track alerts and dashboard with monitoring using charts etc.
